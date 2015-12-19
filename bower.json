@@ -1,0 +1,28 @@
+{
+  "name": "NickWilliam",
+  "version": "0.0.0",
+  "homepage": "https://github.com/xrochoa/NickWilliam",
+  "authors": [
+    "Xavier Reyes Ochoa <xareyesochoa@gmail.com>"
+  ],
+  "description": "Nick William Ecommerce Website",
+  "main": "server.js",
+  "keywords": [
+    "nick",
+    "william",
+    "shirts"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.6",
+    "angular": "~1.4.8",
+    "angular-route": "~1.4.8"
+  }
+}
