@@ -1,2 +1,6 @@
 bower_components/
 node_modules/
+dist/
+.DS_Store
+src/css/style.css
+src/js/bundle.js

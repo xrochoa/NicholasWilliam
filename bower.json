@@ -1,14 +1,14 @@
 {
-  "name": "NickWilliam",
+  "name": "NicholasWilliam",
   "version": "0.0.0",
-  "homepage": "https://github.com/xrochoa/NickWilliam",
+  "homepage": "https://github.com/xrochoa/NicholasWilliam",
   "authors": [
     "Xavier Reyes Ochoa <xareyesochoa@gmail.com>"
   ],
-  "description": "Nick William Ecommerce Website",
+  "description": "Nicholas William Ecommerce Website",
   "main": "server.js",
   "keywords": [
-    "nick",
+    "nicholas",
     "william",
     "shirts"
   ],

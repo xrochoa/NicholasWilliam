@@ -1,27 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Nick William</title>
-
+    <base href="/" target="_blank">
+    <title>Nicholas William</title>
     <!-- Bootstrap -->
     <link href="bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
-    <style>
-.nopadding {
-   padding: 0 !important;
-   margin: 0 !important;
-}
-
-.img-responsive {opacity: 0;
-transition: opacity 0.5s ease-in-out;}
-.img-responsive:hover {
-  opacity: 1;
-
-}
-    </style>
+    <link href="css/google-font.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -31,14 +21,16 @@ transition: opacity 0.5s ease-in-out;}
     <!-- Anguar -->
     <script src="angular/angular.js"></script>
     <script src="angular-route/angular-route.js"></script>
-  </head>
-  <body ng-app>
-    <div class="container">
-      <div class="row">
-  <div class="col-xs-1 nopadding" ng-repeat="x in [0,1,2,3,4,5,6,7,8,9,10]"><img src="img/logo.png" class="img-responsive"/></div>
-</div>
-          
+</head>
 
-</div>
-  </body>
+<body ng-app="app">
+    <div ng-view autoscroll="true"></div>
+    <div id="footer">
+        <div class="text-center">
+            <span>Nicholas William 2016 &copy All rights reserved</span>
+        </div>
+    </div>
+    <script src="js/bundle.js"></script>
+</body>
+
 </html>

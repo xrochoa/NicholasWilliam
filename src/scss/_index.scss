@@ -1,0 +1,32 @@
+html,
+body {
+    overflow: hidden;
+}
+
+.hover-logo {
+    opacity: 0;
+    width: 250px;
+    transition: opacity 0.5s ease-in-out;
+    animation: fade-in-out 2s ease-in-out 2;
+    animation-direction: alternate;
+}
+
+.hover-logo:hover {
+    opacity: 0.5;
+    -webkit-backface-visibility: hidden;
+}
+
+#center-logo {
+    border: .5rem solid black;
+    background-color: white;
+    position: fixed;
+    top: 50%;
+    margin-top: -80px;
+    left: 50%;
+    margin-left: -150px;
+    z-index: 10;
+}
+
+.border-bottom {
+    border-bottom: .5rem solid black;
+}

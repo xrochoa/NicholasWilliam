@@ -1,0 +1,11 @@
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-xs-6 col-sm-4 col-md-3 nopadding" ng-repeat="x in getNumber(number) track by $index">
+            <img src="img/logo.png" class="img-responsive center-block hover-logo" ng-style="getStyle($index/10)" />
+        </div>
+    </div>
+    <div id="center-logo" class="row-fluid">
+        <img class="border-bottom img-responsive" src="img/logo.png" />
+        <div class="text-center"><span><a href="enter">Enter</a></span> | <span><a href="about">About</a></span></div>
+    </div>
+</div>

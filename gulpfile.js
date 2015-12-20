@@ -103,27 +103,18 @@ gulp.task('html', function() {
             package: 'angular-route',
             cdn: 'https://ajax.googleapis.com/ajax/libs/angularjs/${ version }/angular-route.min.js'
         }, {
-            file: 'angular-animate/angular-animate.js',
-            package: 'angular-animate',
-            cdn: 'https://ajax.googleapis.com/ajax/libs/angularjs/${ version }/angular-animate.min.js'
-        }, {
-            file: 'ng-file-upload/ng-file-upload.js',
-            package: 'ng-file-upload',
-            cdn: 'https://cdnjs.cloudflare.com/ajax/libs/danialfarid-angular-file-upload/${ version }/ng-file-upload.min.js'
-        }, {
             file: 'bootstrap/dist/css/bootstrap.css',
             package: 'bootstrap',
             cdn: 'https://maxcdn.bootstrapcdn.com/bootstrap/${ version }/css/bootstrap.min.css'
-        }, {
-            file: 'angular-bootstrap/ui-bootstrap-tpls.js',
-            package: 'angular-bootstrap',
-            cdn: 'https://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/${ version }/ui-bootstrap-tpls.min.js'
         }, {
             file: 'css/style.css',
             cdn: 'css/style.min.css'
         }, {
             file: 'js/bundle.js',
             cdn: 'js/bundle.min.js'
+        },{
+            file: 'css/google-font.css',
+            cdn: 'https://fonts.googleapis.com/css?family=Inconsolata'
         }]))
         .pipe(minifyHTML())
         .pipe(gulp.dest("dist"))

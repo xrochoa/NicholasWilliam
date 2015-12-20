@@ -3,8 +3,8 @@
 module.exports = function($routeProvider, $locationProvider) {
     $routeProvider
         .when('/', {
-            templateUrl: 'views/upload.html',
-            controller: 'upload'
+            templateUrl: 'views/intro.html',
+            controller: 'intro'
         })
         .otherwise({
             redirectTo: '/'
